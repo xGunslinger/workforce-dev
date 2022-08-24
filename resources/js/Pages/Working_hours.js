@@ -1,9 +1,14 @@
 import React from 'react';
+import {Container} from "reactstrap";
 
-const Dashboard = () => {
+const Working_hours = () => {
     return(
-        <>This is Working hours</>
+        <Container>
+            <h1>
+                Coming soon
+            </h1>
+        </Container>
     );
 }
 
-export default Dashboard;
+export default Working_hours;

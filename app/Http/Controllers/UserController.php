@@ -38,5 +38,10 @@ class UserController extends Controller
         return DB::select('select * from USERS where position  = ?', ['supervisor']);
     }
 
+    public function allUsers()
+    {
+        return User::all();
+    }
+
 
 }

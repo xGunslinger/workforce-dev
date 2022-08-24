@@ -24,7 +24,6 @@ const Dashboard = () => {
         setStatus(e.target.value);
 
         const formData = new FormData()
-        // formData.append('_method', 'PATCH');
         formData.append('status', e.target.value)
 
 

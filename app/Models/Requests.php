@@ -14,7 +14,8 @@ class Requests extends Model
         'user_id',
         'title',
         'description',
-        'employee_id'
+        'employee_id',
+        'request_status'
     ];
 
     public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo

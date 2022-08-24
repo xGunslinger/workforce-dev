@@ -8,6 +8,7 @@ import Working_hours from "./Pages/Working_hours";
 import "./../css/app.css";
 import Requests from "./Pages/Requests";
 import RequestForm from "./components/RequestForm";
+import Notifications from "./Pages/Notifications";
 
 
 function Index() {
@@ -15,11 +16,12 @@ function Index() {
             <BrowserRouter>
                 <Header/>
                 <Routes>
-                    <Route path="/" element={<Dashboard /> } />
+                    <Route path="/home" element={<Dashboard /> } />
                     <Route path="/dashboard" element={<Dashboard /> } />
                     <Route path="/schedule" element={<Schedule /> } />
                     <Route path="/requests" element={<Requests /> } />
-                    <Route path="/requestForm" element={<RequestForm /> } />
+                    <Route path="/working_hours" element={<Working_hours /> } />
+                    <Route path="/notifications" element={<Notifications /> } />
                 </Routes>
             </BrowserRouter>
     );
