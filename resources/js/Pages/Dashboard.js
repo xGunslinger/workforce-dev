@@ -22,11 +22,8 @@ const Dashboard = () => {
     const updateStatus = async (e) => {
         console.log(e.target.value);
         setStatus(e.target.value);
-
         const formData = new FormData()
         formData.append('status', e.target.value)
-
-
         await axios.post(`http://127.0.0.1:8000/api/user/status`, formData);
 
     }

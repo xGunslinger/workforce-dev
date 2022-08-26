@@ -2,7 +2,6 @@ import {Button, Col, Container, Row} from "reactstrap";
 import {useEffect, useState} from "react";
 import RequestForm from "../components/RequestForm";
 
-
 const EmployeeRequests = () => {
     const [showFormVar, setShowForm] = useState(false);
     const [users, setUsers] = useState([]);

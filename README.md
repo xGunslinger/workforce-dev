@@ -4,6 +4,10 @@ After that use command: `"compose install"` and `"npm install"` to download all 
 
 Now you can configure the project. Rename _.env.example_ to _.env_ and set up the db connection in this file.
 
+To migrate the tables to db use command: 
+
+`php artisan migrate`
+
 Probably you will need to install a few dependencies: 
 
 `npm i --save @devexpress/dx-react-core @devexpress/dx-react-scheduler`
